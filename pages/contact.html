@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Blasi Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+                 <!-- Logo -->
+    <a href="/index.html" class="navbar-brand mx-auto">
+    <img src="/assets/Logo grande.png" alt="Logo de la tienda" class="logo"></a></div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Blasi Store</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/product.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/us.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/cart.html">
+                                <i class="fas fa-shopping-cart"></i> Carrito
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de contacto -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6 contact-info">
+                    <h3>Contáctanos</h3>
+                    <p>Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través del formulario o usando la información de contacto a continuación.</p>
+                    <h5>Teléfono</h5>
+                    <p><i class="fas fa-phone"></i> +54 0342 4077556</p>
+                    <h5>Email</h5>
+                    <p><i class="fas fa-envelope"></i> blasi.store4@gmail.com</p>
+                    <h5>Dirección</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> San Jose 7069</p>
+                </div>
+
+             
+                <div class="col-md-6">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Mapa -->
+            <div class="row">
+                <div class="col-12 map-container">
+                    <h3 class="text-center">Encuéntranos en el mapa</h3>
+                    <iframe 
+                        src="https://www.google.com.ar/maps/place//@-31.604993,-60.7098175,15z?hl=es&entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
+                        width="100%" 
+                        height="450" 
+                        frameborder="0" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        aria-hidden="false" 
+                        tabindex="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4>Enlaces</h4>
+            <ul>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="./us.html">Sobre nosotros</a></li>
+              <li><a href="./product.html">Productos</a></li>
+              <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Redes Sociales</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/blasi.store/" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Suscríbete al Boletín</h4>
+            <form action="#" method="post">
+              <input type="email" placeholder="Tu correo electrónico" required>
+              <button type="submit">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Blasi Store. Todos los derechos reservados.</p>
+        </div>
+    <p>&copy; 2024 Blasi. Todos los derechos reservados.</p>
+</footer>
+
+    <!-- Scripts de Bootstrap y FontAwesome para los íconos -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Enlace a Font Awesome -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
