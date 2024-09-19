@@ -1,0 +1,30 @@
+{
+  "name": "blasistore",
+  "version": "1.0.0",
+  "description": "pagina de mi tienda como proyecto para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaBlasi/blasistore.git"
+  },
+  "keywords": [
+    "tienda",
+    "iphone",
+    "termos",
+    "perfumes",
+    "celulares",
+    "stanley"
+  ],
+  "author": "Seba Blasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebaBlasi/blasistore/issues"
+  },
+  "homepage": "https://github.com/SebaBlasi/blasistore#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
