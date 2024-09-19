@@ -1,0 +1,40 @@
+/* NOSOTROS */
+.about-us-section {
+
+    h1 {
+        font-size: 2.5rem;
+        color: #343a40;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    h4 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    p {
+        color: #6c757d;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    ul {
+        padding-left: 20px;
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+    }
+
+    p.lead {
+        font-size: 1.2rem;
+        color: #6c757d;
+    }
+}

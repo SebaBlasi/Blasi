@@ -1,0 +1,25 @@
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .about-us-section {
+        img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    main {
+        h1 {
+            font-size: 2em;
+        }
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        .footer-enlaces {
+            display: block;
+        }
+    }
+}

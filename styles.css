@@ -24,8 +24,6 @@
     align-items: center;
 }
 
-
-
 /* Estilos personalizados */
 
 body {
@@ -65,13 +63,6 @@ header {
 
 .carousel-caption p {
     font-size: 1.2em;
-}
-
-
-main h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
 }
 
 .card {
