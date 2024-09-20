@@ -3,9 +3,18 @@
 .card {
     margin: 5px;
     .card-title {
-        font-size: 1.25em;
+        font-size: $font-size-large;
         font-weight: bold;
     }
+    .card-text {
+        font-size: $font-size-base;
+    }
+    .btn-primary {
+        background-color: $primary-color;
+        color: $secondary-color;
+        &:hover {
+            background-color: $secondary-color;
+            color: $primary-color;
+        }
+    }
 }
-
-

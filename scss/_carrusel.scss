@@ -7,11 +7,17 @@
 
 .carousel-caption {
     h5{
-        font-size: 2em;
+        font-size: $font-size-large;
         font-weight: bold;
     }
 
     p {
-        font-size: 1.2em;
+        font-size: $font-size-base;
+    }
+}
+
+.carousel-indicators {
+    li {
+        color: transparent;
     }
 }

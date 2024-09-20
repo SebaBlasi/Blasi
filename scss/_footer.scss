@@ -3,7 +3,7 @@
 footer {
 
     h4 {
-        font-size: 1.3rem;
+        font-size: $font-size-base;
         font-weight: bold;
         margin-bottom: 1rem;
         text-transform: uppercase;
@@ -13,6 +13,7 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        font-size: $font-size-small;
     }
 
     ul {
@@ -21,9 +22,10 @@ footer {
             list-style: none;
             a {
                 text-decoration: none;
-                color: #ffffff;
-                :hover {
-                    color: #f8f9fa;
+                color: $secondary-color;
+                transition: color 0.3s;
+                &:hover {
+                    color: $primary-color;
                     text-decoration: underline;
                 }
             }
@@ -34,19 +36,19 @@ footer {
         display: flex;
         justify-content: center;
         a {
-            font-size: 1.5rem;
+            font-size: $font-size-large;
             margin: 10px;
-            color: #ffffff;
+            color: $secondary-color;
 
             &:hover {
-                color: #007bff;
+                color: $primary-color;
             }
         }
     }
 
     .text-muted {
-        font-size: 0.9rem;
-        color: #dcdcdc;
+        font-size: $font-size-small;
+        color: $secondary-color;
     }
 
     .input-group {
@@ -55,7 +57,7 @@ footer {
         }
 
         button {
-            border-radius: 0 5px 5px 0;
+            border-radius: 0 6px 6px 0;
         }
     } 
 }

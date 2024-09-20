@@ -2,22 +2,25 @@
 .about-us-section {
 
     h1 {
-        font-size: 2.5rem;
-        color: #343a40;
+        font-size: $font-size-large;
+        color: $text-color;
     }
 
     h3 {
-        font-size: 1.8rem;
+        font-size: $font-size-large;
         margin-bottom: 1rem;
+        color: $text-color;
     }
     
     h4 {
-        font-size: 1.5rem;
+        font-size: $font-size-large;
         margin-top: 1rem;
+        color: $text-color;
     }
     
     p {
-        color: #6c757d;
+        color: $text-color;
+        font-size: $font-size-base;
     }
 
     img {
@@ -29,12 +32,13 @@
         padding-left: 20px;
         li {
             margin-bottom: 0.5rem;
-            font-size: 1.1rem;
+            font-size: $font-size-base;
+            color: $text-color;
         }
     }
 
     p.lead {
-        font-size: 1.2rem;
-        color: #6c757d;
+        font-size: $font-size-small;
+        color: $text-color;
     }
 }

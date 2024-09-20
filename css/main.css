@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* COLORES */
+/* TIPOGRAFIA */
 * {
   margin: 0px;
   padding: 0px;
@@ -6,7 +8,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Arial, sans-serif";
   line-height: 1.6;
 }
 
@@ -34,28 +36,33 @@ header {
 }
 
 .navbar .nav-link {
-  color: #fff;
+  color: white;
   transition: color 0.3s;
 }
 .navbar .nav-link i {
   margin-right: 5px;
 }
-.navbar .nav-link :hover {
-  color: #ddd;
+.navbar .nav-link:hover {
+  color: #333;
 }
 
 /*CARRUSEL*/
 .carousel-item img {
   max-height: 500px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .carousel-caption h5 {
-  font-size: 2em;
+  font-size: 30px;
   font-weight: bold;
 }
 .carousel-caption p {
-  font-size: 1.2em;
+  font-size: 16px;
+}
+
+.carousel-indicators li {
+  color: transparent;
 }
 
 /* PRODUCTOS */
@@ -63,25 +70,39 @@ header {
   margin: 5px;
 }
 .card .card-title {
-  font-size: 1.25em;
+  font-size: 30px;
   font-weight: bold;
+}
+.card .card-text {
+  font-size: 16px;
+}
+.card .btn-primary {
+  background-color: #333;
+  color: white;
+}
+.card .btn-primary:hover {
+  background-color: white;
+  color: #333;
 }
 
 /* NOSOTROS */
 .about-us-section h1 {
-  font-size: 2.5rem;
-  color: #343a40;
+  font-size: 30px;
+  color: #333;
 }
 .about-us-section h3 {
-  font-size: 1.8rem;
+  font-size: 30px;
   margin-bottom: 1rem;
+  color: #333;
 }
 .about-us-section h4 {
-  font-size: 1.5rem;
+  font-size: 30px;
   margin-top: 1rem;
+  color: #333;
 }
 .about-us-section p {
-  color: #6c757d;
+  color: #333;
+  font-size: 16px;
 }
 .about-us-section img {
   width: 150px;
@@ -92,16 +113,30 @@ header {
 }
 .about-us-section ul li {
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 16px;
+  color: #333;
 }
 .about-us-section p.lead {
-  font-size: 1.2rem;
-  color: #6c757d;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-section h3 {
+  font-size: 30px;
+  color: #333;
+}
+.contact-section h5 {
+  font-size: 16px;
+  color: #333;
+}
+.contact-section p {
+  font-size: 16px;
+  color: #333;
 }
 
 /* FOOTER */
 footer h4 {
-  font-size: 1.3rem;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -110,6 +145,7 @@ footer .footer-enlaces {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 14px;
 }
 footer ul {
   padding: 0px;
@@ -119,10 +155,11 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
+  transition: color 0.3s;
 }
-footer ul li a :hover {
-  color: #f8f9fa;
+footer ul li a:hover {
+  color: #333;
   text-decoration: underline;
 }
 footer .social-icons {
@@ -130,22 +167,22 @@ footer .social-icons {
   justify-content: center;
 }
 footer .social-icons a {
-  font-size: 1.5rem;
+  font-size: 30px;
   margin: 10px;
-  color: #ffffff;
+  color: white;
 }
 footer .social-icons a:hover {
-  color: #007bff;
+  color: #333;
 }
 footer .text-muted {
-  font-size: 0.9rem;
-  color: #dcdcdc;
+  font-size: 14px;
+  color: white;
 }
 footer .input-group input {
   border-radius: 5px 0 0 5px;
 }
 footer .input-group button {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 /* RESPONSIVE */
@@ -155,7 +192,7 @@ footer .input-group button {
     height: 120px;
   }
   main h1 {
-    font-size: 2em;
+    font-size: 30px;
   }
   .card {
     margin-bottom: 15px;
@@ -163,4 +200,4 @@ footer .input-group button {
   footer .footer-enlaces {
     display: block;
   }
-}
+}/*# sourceMappingURL=main.css.map */

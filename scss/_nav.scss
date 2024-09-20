@@ -21,13 +21,13 @@
 
 .navbar {
     .nav-link {
-        color: #fff;
+        color: $secondary-color;
         transition: color 0.3s;
         i {
             margin-right: 5px;
         }
-        :hover {
-            color: #ddd;
+        &:hover {
+            color: $primary-color;
         }
     }
 }
