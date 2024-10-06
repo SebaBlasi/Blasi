@@ -4,42 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Blasi Store</title>
+    <meta name="keywords" content="Atencion al cliente, soporte, donde estamos, formulario de contacto, comunicacion directa, consulta sobre productos, devolucion, reclamos, Atencion via email, atencion via whatsapp">
+    <meta name="description" content="Contactanos por tus consultas, tus productos o pedidos, estamos disponibles para brindarte asistencia rapida a traves del formulario de contacto por gmail o telefono. Tus satisfaccion es nuestra prioridad.">
+    <link rel="icon" href="../assets/Logo mas chiquito.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header class="bg-dark text-white py-3">
-                 <!-- Logo -->
-    <a href="../index.html" class="navbar-brand mx-auto">
-    <img src="../assets/Logo grande.png" alt="Logo de la tienda" class="logo"></a></div>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./product.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./us.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cart.html">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+        <!-- Logo -->
+        <a href="../index.html" class="navbar-brand mx-auto">
+        <img src="../assets/Logo grande.png" alt="Logo de la tienda" class="logo"></a></div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./us.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <!-- Sección de contacto -->
@@ -47,7 +51,7 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-md-6 contact-info">
+                <div class="col-md-6 contact-info" data-aos="zoom-in-right">
                     <h3>Contáctanos</h3>
                     <p>Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través del formulario o usando la información de contacto a continuación.</p>
                     <h5>Teléfono</h5>
@@ -59,7 +63,7 @@
                 </div>
 
              
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-left">
                     <h3>Envíanos un mensaje</h3>
                     <form action="#" method="post">
                         <div class="mb-3">
@@ -80,7 +84,7 @@
             </div>
 
             <!-- Mapa -->
-            <div class="row">
+            <div class="row" data-aos="zoom-out-up">
                 <div class="col-12 map-container">
                     <h3 class="text-center">Encuéntranos en el mapa</h3>
                     <iframe 
@@ -138,5 +142,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/743fc3f98d.js" crossorigin="anonymous"></script> <!-- Enlace a Font Awesome -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS -->
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

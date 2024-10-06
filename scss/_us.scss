@@ -1,6 +1,50 @@
 /* NOSOTROS */
 .about-us-section {
 
+    .card-equipo {
+        position: relative;
+        max-width: 300px;
+        height: 160px;
+        background: #fff;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+        transition: 0.3s ease-in-out;
+        &:hover {
+            height: 270px;
+            .content-equipo {
+                visibility: visible;
+                opacity: 1;
+                margin-top: -40px;
+            }
+        }
+        .img-box {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -50px;
+            left: 15px;
+            z-index: 1;
+            box-shadow: 0 5px 20px 
+            img {
+                max-width: 100%;
+                border-radius: 4px;
+            }
+        }
+        .content-equipo {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: $text-color;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+    }
+
     h1 {
         font-size: $font-size-large;
         color: $text-color;

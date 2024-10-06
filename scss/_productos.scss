@@ -3,11 +3,13 @@
 .card {
     margin: 5px;
     .card-title {
-        font-size: $font-size-large;
+        font-size: $font-size-base;
         font-weight: bold;
     }
     .card-text {
-        font-size: $font-size-base;
+        font-size: $font-size-large;
+        font-weight: bold;
+        color:#FF851B;
     }
     .btn-primary {
         background-color: $primary-color;
